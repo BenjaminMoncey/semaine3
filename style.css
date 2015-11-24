@@ -1,0 +1,130 @@
+@font-face
+	{
+		font-family: 'Cabin-Regular';
+		src: url('Cabin-Regular.otf');
+	}
+	
+body
+	{
+		background: url("images/old_map.png") fixed;
+	}
+
+@media all and (max-width:1024px)
+{
+	body
+		{
+			background: url("images/old_map.png") fixed;
+		}
+}
+
+*
+	{
+		font-family: Cabin-Regular, Arial, Sans-serif;
+	}	
+	
+#left
+	{
+		position: absolute;
+		float: left;
+		top: 0px;
+		height: 100%;
+		width: 10%;
+		background-color: #CCCCFF;
+	}
+	
+@media all and (max-width: 1024px)
+{
+	#left 
+		{
+			display: none;
+		}
+}
+
+header h1
+	{
+		margin-left: 10%;
+		text-align: center;
+		box-shadow: 3px 3px 6px blue;
+	}
+
+@media screen and (max-width: 1024px)
+{
+	header h1
+		{
+			margin-left: 5px;
+			text-align: center;
+			box-shadow: 3px 3px 6px blue;
+		}	
+}	
+
+header p
+	{
+		text-align: center;
+		margin-left: 10%;
+	}
+
+@media screen and (max-width: 1024px)
+{
+	header p
+		{
+			margin-left: 5px;
+			text-align: center;
+		}	
+}	
+	
+h2
+	{
+		color: blue;
+		width: 200px;
+		border: 3px black solid;
+		border-radius: 15px;
+	}
+
+@media screen and (max-width: 1024px)
+{
+	h2
+	{
+		font-size: 1.2em;
+	}
+}
+
+#bloc_page
+	{
+		margin-left: 11%;
+	}
+
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		margin-left: 5px;
+	}
+}
+
+#experience, #competences, #formation
+	{
+		width: 33%;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		text-align: justify;
+	}
+
+@media screen and (max-width: 1024px)
+{
+	#experience, #competences, #formation
+		{
+			width: auto;
+			display: block;
+			vertical-align: top;
+			text-align: justify;
+		}
+}
+
+@media screen and (max-width: 1024px)
+{
+	p ul li
+	{
+		font-size:1.1em;
+	}
+}
