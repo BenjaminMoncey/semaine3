@@ -9,13 +9,6 @@ body
 		background: url("images/old_map.png") fixed;
 	}
 
-@media all and (max-width:1024px)
-{
-	body
-		{
-			background: url("images/old_map.png") fixed;
-		}
-}
 
 *
 	{
@@ -88,14 +81,14 @@ h2
 	}
 }
 
-#bloc_page
+#bloc_page, footer
 	{
 		margin-left: 11%;
 	}
 
 @media all and (max-width: 1024px)
 {
-	#bloc_page
+	#bloc_page, footer
 	{
 		margin-left: 5px;
 	}
