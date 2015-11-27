@@ -123,3 +123,15 @@ h2
 		font-size:1.1em;
 	}
 }
+
+a:link {
+  text-decoration: none;
+  color: #003399;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #003399;
+  color: white;
+}
+
