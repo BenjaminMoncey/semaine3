@@ -45,8 +45,6 @@ header h1
 	header h1
 		{
 			margin-left: 5px;
-			text-align: center;
-			box-shadow: 3px 3px 6px blue;
 		}	
 }	
 
@@ -61,12 +59,13 @@ header p
 	header p
 		{
 			margin-left: 5px;
-			text-align: center;
 		}	
 }	
 	
 h2
 	{
+		padding: 3px;
+		text-align: center;
 		color: blue;
 		width: 200px;
 		border: 3px black solid;
@@ -109,10 +108,13 @@ h2
 		{
 			width: auto;
 			display: block;
-			vertical-align: top;
-			text-align: justify;
 		}
 }
+
+	ul
+	{
+		list-style-type:circle;
+	}
 
 @media screen and (max-width: 1024px)
 {
